@@ -14,11 +14,6 @@ function App() {
           corSecundaria: '#E8F8FF',
       },
       {
-          nome: 'Corrida',
-          corPrimaria: '#A6D157',
-          corSecundaria: '#F0F8E2',
-      },
-      {
           nome: 'Mundo Aberto',
           corPrimaria: '#E06B69',
           corSecundaria: '#FDE7E8',
@@ -37,7 +32,12 @@ function App() {
           nome: 'FPS',
           corPrimaria: '#FF8A29',
           corSecundaria: '#FFEEDF',
-      }
+      },
+      {
+        nome: 'Corrida',
+        corPrimaria: '#A6D157',
+        corSecundaria: '#F0F8E2',
+      },
   ]
 
   const [games, setGames] = useState(games_json.games)

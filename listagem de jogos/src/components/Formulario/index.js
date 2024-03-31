@@ -43,8 +43,8 @@ const Formulario = ({ generos, aoGameCadastrado}) => {
                 />
                 <CampoTexto 
                     type="text"
-                    label="Descricao"
-                    placeholder="Digite uma Descricao"
+                    label="Descrição"
+                    placeholder="Digite uma Descrição"
                     valor={descricao}
                     aoAlterado={valor => setDescricao(valor)}
                 />
